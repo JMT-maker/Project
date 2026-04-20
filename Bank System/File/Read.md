@@ -22,7 +22,7 @@ Service Layer: 이체 원자성 처리 및 비즈니스 로직 검증.
 
 Data Layer: User, Account, Transaction 객체 관리 및 데이터 영속성 처리.   
 
-## 📊데이터베이스 설계 (ER Diagram)초기 3개 테이블 구성에서 거래 내역 추적의 한계를 극복하기 위해 
+# 📊데이터베이스 설계 (ER Diagram)초기 3개 테이블 구성에서 거래 내역 추적의 한계를 극복하기 위해 
 TRANSACTION 테이블을 추가한 4개 테이블 구조로 고도화했습니다.
 테이블,설명,주요 속성
 USER,사용자 인증 및 권한 관리 ,"user_id, password, is_admin +1"
